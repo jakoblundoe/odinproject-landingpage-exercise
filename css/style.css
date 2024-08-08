@@ -41,15 +41,14 @@ p, a {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 500;
-
-    margin: 0.6em;
+    margin: 15px;
 }
 
 .header .pagelinks {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    gap: 1.5em;
+    gap: 30px;
 }
 
 .herocontainer {
@@ -57,17 +56,17 @@ p, a {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    gap: 3em;
-    padding: 4em;
-    padding-bottom: 6em;
+    gap: 60px;
+    padding: 80px;
+    padding-bottom: 120px;
 }
 
 .herocontainer .content {
     display: flex;
     flex-flow: column nowrap;
 
-    max-width: 23em;
-    gap: 0.4em;
+    max-width: 460px;
+    gap: 8px;
 }
 
 .herocontainer h1 {
@@ -87,7 +86,7 @@ p, a {
     border-radius: 7px;
 
     width: fit-content;
-    padding: 0.35em 1.4em;
+    padding: 7px 28px;
 }
 
 .heroimgtemp {
