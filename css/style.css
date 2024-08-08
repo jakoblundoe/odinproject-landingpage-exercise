@@ -101,3 +101,46 @@ p, a {
     font-size: 18px;
     padding: 90px 105px 90px;
 }
+
+.contentcontainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin: 40px;
+}
+
+.contentcontainer h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.contentcontainer .infoarea {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.contentcontainer .infoarea .infocontainer {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    width: 160px;
+}
+
+.contentcontainer .infocontainer .tempimg {
+    width: auto;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.contentcontainer .infocontainer p {
+    text-align: center;
+    margin: 0 -2px 0px -2px;
+    color: #525253;
+}
