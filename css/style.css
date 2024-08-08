@@ -59,6 +59,7 @@ p, a {
     align-items: center;
     gap: 3em;
     padding: 4em;
+    padding-bottom: 6em;
 }
 
 .herocontainer .content {
