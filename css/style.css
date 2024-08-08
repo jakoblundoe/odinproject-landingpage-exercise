@@ -7,12 +7,20 @@ body {
     padding: 0;
 }
 
-p, a, h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
+    color: #e5e7eb;
 }
 
-.header, .footer {
+p, a {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #e5e7eb;
+}
+
+.header, .footer, .herocontainer {
     background-color: #1F2937;
     color: #fff;
 }
@@ -26,11 +34,10 @@ p, a, h1, h2, h3, h4, h5, h6 {
 
 .header a {
     text-decoration: none;
-    color: #e5e7eb;
     font-size: 18px;
 }
 
-.header p {
+.headerlogocontainer p {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 500;
@@ -43,4 +50,53 @@ p, a, h1, h2, h3, h4, h5, h6 {
     flex-flow: row wrap;
     justify-content: space-around;
     gap: 1.5em;
+}
+
+.herocontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding: 4em;
+}
+
+.herocontainer .content {
+    display: flex;
+    flex-flow: column nowrap;
+
+    max-width: 23em;
+    gap: 0.4em;
+}
+
+.herocontainer h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.herocontainer .content p {
+    font-size: 18px;
+}
+
+.herocontainer .signupbutton {
+    font-weight: 500;
+
+    background-color: #3882f6;
+    border-radius: 7px;
+
+    width: fit-content;
+    padding: 0.35em 1.4em;
+}
+
+.heroimgtemp {
+    background-color: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroimgtemp p {
+    font-size: 18px;
+    padding: 90px 105px 90px;
 }
